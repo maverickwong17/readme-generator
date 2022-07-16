@@ -22,8 +22,12 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Credits](#credits)
+* [Features](#features)
+* [Contributions](#contributing-guidlines)
+* [Tests](#tests)
+* [Contact Me](#questions)
 
 ## Installation
 
@@ -36,18 +40,21 @@ ${data.usage}
 ## License
 
 
+
 ## Credits
 
 ## Features
 
-## Contributing
+## Contributing Guidelines
 
 ${data.contribute}
 
 ## Tests
 
 ## Questions
-* [My GitHub profile](https://github.com/${data.github})
+
+If there are any questions, please contact me through:
+* [GitHub profile](https://github.com/${data.github})
 * Email: ${data.email}`;
 }
 
