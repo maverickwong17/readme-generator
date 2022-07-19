@@ -1,10 +1,10 @@
-# gen
+# Demo
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 
-generate
+This is a demo
 
 ## Table of Contents
 
@@ -17,14 +17,15 @@ generate
 
 ## Installation
 
+To install necessary dependencies, run the following command:
+```
 npm i
+```
 
 ## Usage 
 
-To install necessary dependencies, run the following command:
-```
-use it
-```
+This Demo
+
 
 ## License 
  
@@ -32,7 +33,7 @@ use it
 
 ## Contributing Guidelines
 
-contribute
+Contact
 
 ## Tests
 
@@ -44,5 +45,5 @@ npm test
 ## Questions
 
 If there are any questions, please contact me through my:
-* Email: 1@1.com
-* [GitHub](https://github.com/maverick)
+* Email: email@email.com
+* [GitHub](https://github.com/Username)
