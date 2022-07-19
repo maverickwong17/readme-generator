@@ -31,7 +31,7 @@ User will then be prompted to answer the following questions:
 Upon answering the last question, the file genReadme.md will be created with the answers in the appropriate sections.
 
 
-[Video Example](https://drive.google.com/file/d/17sK2oUEceUI9H1h3g0f1S3t7JEgRNbf7/view)
+[Video Example](https://www.youtube.com/watch?v=vYoZWv-XnQo)
 
 
 ## Credits
