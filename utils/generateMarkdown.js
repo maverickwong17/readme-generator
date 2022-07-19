@@ -89,14 +89,15 @@ ${renderLicenseToc(data.license)}
 
 ## Installation
 
+To install necessary dependencies, run the following command:
+\`\`\`
 ${data.install}
+\`\`\`
 
 ## Usage 
 
-To install necessary dependencies, run the following command:
-\`\`\`
 ${data.usage}
-\`\`\`
+
 
 ${renderLicenseSection(data.license)}
 
