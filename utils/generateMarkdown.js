@@ -4,18 +4,19 @@ function renderLicenseBadge(license) {
   let badge
   switch (license){
     case "MIT":
-      badge = "[![License: MIT](https://img.shields.io/badge/License-GPLv3-blue.svg)]"
+      badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]"
       break
     case "APACHE 2.0":
       badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]'
       break
     case "GPL 3.0":
-      badge = "[![License: GPL v3](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]"
+      badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]"
       break
     case "BSD 3":
       badge = '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]'
       break
     default:
+      badge = ''
       break
   }
   return badge
@@ -39,6 +40,7 @@ function renderLicenseLink(license) {
       link = "(https://opensource.org/licenses/BSD-3-Clause)"
       break
     default:
+      link = ''
       break
   }
   return link
@@ -48,13 +50,21 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   let section
-  if (license !== "None"){let section = `## License \n \n This project is licensed under the ${license} license.`}
+  if (license !== "None"){
+    let section = `## License \n \n This project is licensed under the ${license} license.`
+    return section
+  }
+  section = ''
   return section
 }
 
 function renderLicenseToc(license) { 
   let content
-  if (license !== "None"){let content = '* [License](#license)'}
+  if (license !== "None"){
+    let content = '* [License](#license)'
+    return content  
+  }
+  content = ''
   return content  
 }
 
@@ -83,7 +93,10 @@ ${data.install}
 
 ## Usage 
 
+To install necessary dependencies, run the following command:
+\`\`\`
 ${data.usage}
+\`\`\`
 
 ${renderLicenseSection(data.license)}
 
@@ -93,11 +106,16 @@ ${data.contribute}
 
 ## Tests
 
+To run tests, run the following command:
+\`\`\`
+${data.test}
+\`\`\`
+
 ## Questions
 
-If there are any questions, please contact me through:
-* [GitHub profile](https://github.com/${data.github})
-* Email: ${data.email}`;
+If there are any questions, please contact me through my:
+* Email: ${data.email}
+* [GitHub](https://github.com/${data.github})`
 }
 
 module.exports = generateMarkdown;

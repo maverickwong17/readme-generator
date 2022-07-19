@@ -35,7 +35,7 @@ const questions = [
     {
         message: 'What command should be run to run test?',
         default: 'npm test',
-        name: 'tests',
+        name: 'test',
     },
     {
         message: 'How do we make use of the project?',
